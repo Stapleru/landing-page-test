@@ -167,6 +167,18 @@
             return false;
         }
     });
+
+    fetch("https://baconipsum.com/api/?type=lucky", { method: 'GET' })
+    .then(res => res.json())
+    .then(response => {
+        console.log(response);
+        const text = document.querySelector('.content__subtitle');
+        text.innerText = response;
+    })
+    .catch(err => {
+        console.log("error" + err);
+    });
+
     </script>
 
 </body>
