@@ -19,10 +19,10 @@
                 </div>
                 <nav class="header__nav">
                     <ul class="header__nav-list">
-                        <li class="header__nav-list-item">Mobile Top Up</li>
-                        <li class="header__nav-list-item">About</li>
-                        <li class="header__nav-list-item">Rate</li>
-                        <li class="header__nav-list-item">Help</li>
+                        <li class="header__nav-list-item"><a href="#">Mobile Top Up</a></li>
+                        <li class="header__nav-list-item"><a href="#">About</a></li>
+                        <li class="header__nav-list-item"><a href="#">Rate</a></li>
+                        <li class="header__nav-list-item"><a href="#">Help</a></li>
                     </ul>
                 </nav>
                 <button class="header__signup-button">Sign Up</button>
@@ -31,8 +31,7 @@
     
         <div class="content">
             <div class="content__left">
-                <h1 class="content__title">
-                    Now Buy Your
+                <h1 class="content__title">Now Buy Your
                     PIN or <span class="accent">Top Up</span> 
                     With Bank Transfer
                 </h1>
@@ -41,7 +40,7 @@
                 </p>
                 <button class="content__button">Get Started</button>
                 <form action="#" class="search-bar">
-                    <input type="text" class="search-bar__input" placeholder="Where do you want to call?" minlength="4" maxlength="12">
+                    <input type="text" class="search-bar__input" placeholder="Where do you want to call?" minlength="4" maxlength="12" pattern="[^!@#$%^&*()]+"  required>
                     <button type="submit" class="search-bar__submit">
                         <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="55" height="55" rx="27.5" fill="#48B774"/>
@@ -49,13 +48,16 @@
                             <path d="M37.1208 37.1252L32.4688 32.4731" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </button>
-                </form>   
-                <p class="content__text">45k+ Regular User. <span class="accent">View Price Plan</span></p>
+                </form>
+                <div class="content__bottom">
+                    <img class="content__text-img" src="./images/customers.svg">
+                    <p class="content__text">45k+ Regular Users. <span class="accent">View Price Plan</span></p>
+                </div>
             </div>
             <div class="content__right">
                 <div class="content__animation">
                     <img src="./images/girl.png">
-                    <svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <svg viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <g id="orbit">
                         <g id="orbiting_circle">
                         <circle id="orbital" cx="300" cy="300" r="224" stroke="#E8E8E8" stroke-width="2"/>
