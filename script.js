@@ -43,5 +43,6 @@
         hamburger.classList.remove("active");
         nav.classList.remove("active");
         document.querySelector("body").style = "overflow: auto"
+        isHidden = false;
     }))
 
