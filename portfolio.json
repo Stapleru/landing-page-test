@@ -2,7 +2,7 @@
       "name_en": "Landing page test task",
       "description_en": "Landing page I made as a test task for getting a job",
       "name_ru": "Лендинговая страница",
-      "description_en": "Страница, которую я сделал в качестве тестового задания для LuckyGroup", 
+      "description_ru": "Страница, которую я сделал в качестве тестового задания для LuckyGroup", 
       "imageUrl": "./preview.png", 
       "liveDemoUrl": "https://stapleru.github.io/landing-page-test/"
 }
